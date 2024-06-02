@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Herastrau Park",
+    "description": "Donec fringilla velit et dolor aliquet, non pharetra enim tincidunt. Sed ut neque ut lectus fringilla blandit. Integer mattis, sem sit amet ultrices posuere, ligula eros placerat quam, vel consequat quam dui nec elit. Maecenas rutrum elit et enim fermentum, non convallis felis efficitur. Integer hendrerit arcu in velit rhoncus, vitae sollicitudin ante ultricies. Integer laoreet, ligula vel vestibulum scelerisque, arcu libero ultricies nisi, sed rhoncus odio risus sit amet arcu. Cras eget tortor vel nulla dictum varius. Sed tristique, nisi sed tempus aliquam, magna velit lacinia nunc, in fermentum purus odio ac turpis. Integer malesuada felis nec vehicula varius. Ut luctus auctor ultricies. In ut scelerisque justo.",
+    "image": "./assets/herastrau04_w4c.jpg"
+  },
+  {
+    "name": "Cismigiu Garden",
+    "description": "Sed tristique, nisi sed tempus aliquam, magna velit lacinia nunc, in fermentum purus odio ac turpis. Integer malesuada felis nec vehicula varius. Ut luctus auctor ultricies. In ut scelerisque justo. Donec consectetur, lacus non finibus rutrum, est lacus facilisis quam, vel sollicitudin nulla justo a nunc. Curabitur in elit tincidunt, commodo nisi vel, faucibus metus. Vivamus non condimentum ipsum. Quisque suscipit, sem nec blandit viverra, nibh neque volutpat nulla, vitae molestie elit est ut felis.",
+    "image": "./assets/cismigiu.jpg"
+  },
+  {
+    "name": "Carol I Park",
+    "description": "Donec consectetur, lacus non finibus rutrum, est lacus facilisis quam, vel sollicitudin nulla justo a nunc. Curabitur in elit tincidunt, commodo nisi vel, faucibus metus. Vivamus non condimentum ipsum. Quisque suscipit, sem nec blandit viverra, nibh neque volutpat nulla, vitae molestie elit est ut felis. Ut et ligula vitae dui laoreet lobortis. Sed eget velit sed metus sollicitudin efficitur. Vivamus vitae tellus in odio efficitur consequat. Sed at eros vel augue dictum vehicula. Maecenas sagittis odio a purus condimentum sollicitudin. Sed vel arcu quis quam ullamcorper fringilla. Sed nec diam ut ligula lobortis auctor. Sed eu ultricies ipsum.",
+    "image": "./assets/carol.jpg"
+  }
+]

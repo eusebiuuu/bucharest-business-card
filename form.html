@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bucharest City</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/global.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico" />
+</head>
+
+<body class="body-form">
+
+  <h2 class="form-page-title">Formular experienta Bucuresti</h2>
+  <div class="form-container">
+    <form id="contactForm">
+      <h2>Lasa un review orasului</h2>
+      <label for="name">Nume:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Descrieti experienta:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <div>
+        <label for="rating">
+          <h4>Rating</h4>
+          <input id="rating" type="range" step="1" min="1" max="5" value="5" />
+          <p class="rating-value"></p>
+        </label>
+      </div>
+
+      <div class="form-btn-container">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+    <div id="formMessage"></div>
+  </div>
+  <div class="link-form-container">
+    <button>
+      <a href="/" class="form-link">Go home</a>
+    </button>
+  </div>
+
+</body>
+<script src="./scripts/form.js"></script>
+
+</html>

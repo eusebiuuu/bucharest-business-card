@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Not Found</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f9fa;
+      display: grid;
+      align-items: center;
+      grid-template-columns: 1 1;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 72px;
+      margin: 0;
+      color: #343a40;
+    }
+
+    p {
+      font-size: 24px;
+      color: #6c757d;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .reasons {
+      width: fit-content;
+      margin: 1em auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>404</h1>
+    <p>Oops! The page you're looking for doesn't exist.</p>
+    <p><a href="/">Go back to Home</a></p>
+  </div>
+  <div class="reasons">
+    <p>Hello <%=name%>! We are sorry for this situation:(( <br /> Here are the possible reasons for 404:</p>
+    <ul>
+      <% reasons.forEach(elem => {%>
+        <li>
+          <%=elem%>
+        </li>
+      <%});%>
+    </ul>
+  </div>
+</body>
+
+</html>

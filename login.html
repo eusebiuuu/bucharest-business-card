@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bucharest City</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/global.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico" />
+</head>
+<style>
+  .login-container {
+    width: fit-content;
+    margin: 1em auto;
+    text-align: center;
+  }
+
+  button {
+    border: 2px solid black;
+    font-weight: bold;
+    margin-top: 0.5em;
+    padding: 0.5em 1em;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+</style>
+
+<body class="body-form">
+  <div class="login-container">
+    <h1>Login</h1>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <button type="submit">Login</button>
+    </form>
+    <button>
+      <a href="/">Go back home</a>
+    </button>
+  </div>
+</body>
+<script src="./scripts/auth.js"></script>
+
+</html>

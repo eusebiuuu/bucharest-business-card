@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Bucharest City</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/global.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico" />
+</head>
+
+<body>
+  <div class="overlay hidden"></div>
+  <div class="website-container">
+    <aside class="sidebar translate">
+      <div class="sidebar-header">
+        <div class="sidebar-close">
+          <button>
+            <div>
+              <i class="fas fa-times"></i>
+            </div>
+          </button>
+        </div>
+      </div>
+      <ul class="sidebar-btns"></ul>
+    </aside>
+    <main class="website-content">
+      <header class="header">
+        <img src="./assets/images.jpeg" width="50px" height="50px" />
+        <div class="header-text">
+          Welcome to Bucharest
+        </div>
+        <div class="auth-btns">
+          <div class="logout-btn">
+            <button>
+              <a href="/">Logout</a>
+            </button>
+          </div>
+          <div class="login-btn">
+            <button>
+              <a href="/login">Login</a>
+            </button>
+          </div>
+        </div>
+        <div class="sidebar-open">
+          <button>
+            <div>
+              <i class="fas fa-bars"></i>
+            </div>
+          </button>
+        </div>
+      </header>
+      <div class="home-container">
+        <div class="page-title">
+          <h1>Home page</h1>
+        </div>
+        <div class="intro">
+          <div class="intro-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRN7QkqbZtjOm5Z1OBUV8X5H4iWL758QrET6w&s" />
+            <p>Welcome to the Romania's biggest city
+            <p>
+          </div>
+          <div class="intro-container">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b3/Bucuresti_de_sus.jpg" />
+            <p>A place that you can call home no matter who you are</p>
+          </div>
+          <div class="intro-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZm0igrcXxUe5UiS5wo_Rjn2lj-IxYvq8BDA&s" />
+            <p>Also called "Little Paris"</p>
+          </div>
+          <div class="intro-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyXS3QSU9pUrLpM2sf2-X3eer1qLUQRvOoug&s" />
+            <p>Are you ready to get lost in it?</p>
+          </div>
+        </div>
+        <div class="description">
+          <div>
+            <h3>Short description of the city</h3>
+          </div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut diam quis quam scelerisque aliquam. Nam et
+            purus metus. Quisque auctor, mauris vitae feugiat fermentum, risus quam dictum velit, a placerat justo nisl
+            vel libero. Vivamus rutrum, neque non commodo pretium, velit arcu tincidunt velit, at lobortis lorem odio eu
+            orci. Donec malesuada neque id ultrices malesuada. Cras vitae condimentum magna. Nullam vel velit vel orci
+            suscipit faucibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Duis vel eros nec turpis mattis fermentum. Ut nec metus et nunc tincidunt suscipit. Aliquam erat volutpat.
+            Vivamus euismod erat ligula, ut interdum justo ultricies ac. Integer id lorem sed justo volutpat varius.
+          </p>
+          <p>Suspendisse consectetur magna a ex vehicula, vitae congue elit ultricies. Maecenas congue sem non velit
+            dignissim, eget elementum nulla fringilla. Sed non fermentum lacus. Etiam dapibus nulla sed diam auctor, nec
+            suscipit nisl tempor. Suspendisse potenti. Vivamus lobortis quam id convallis faucibus. In consectetur,
+            libero sed efficitur hendrerit, sem turpis scelerisque nisi, in dignissim quam mauris nec ex. Morbi nec
+            metus at ex fermentum posuere a in libero. Sed viverra metus eget erat dignissim, id dapibus nisi fringilla.
+          </p>
+        </div>
+      </div>
+      <div class="parks-container">
+        <h2 class="page-title">Parks from Bucharest</h2>
+        <div class="parks-list-container">
+          Choose a park
+          <ul class="parks-list"></ul>
+        </div>
+        <div class="park-container">
+          <img class="park-image" src="" />
+          <h2 class="park-title"></h2>
+          <div class="park-description-container">
+            <h4 class="park-description-header">
+              Short description
+            </h4>
+            <p class="park-description"></p>
+          </div>
+        </div>
+      </div>
+      <div class="fun-container"></div>
+      <div class="sports-container"></div>
+      <div class="cafes-container"></div>
+      <div class="link-form-container">
+        <button>
+          <a href="/form" class="form-link">Go to form </a>
+        </button>
+      </div>
+    </main>
+  </div>
+</body>
+<script src="./scripts/sidebar.js"></script>
+<script src="./scripts/home.js"></script>
+<script src="./scripts/parks.js"></script>
+
+</html>
