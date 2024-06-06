@@ -111,12 +111,21 @@
           </div>
         </div>
       </div>
-      <div class="fun-container"></div>
+      <div class="todolist-container">
+        <h1>Lucruri de facut in Bucuresti</h1>
+        <form id="todoForm">
+          <input type="text" id="taskInput" placeholder="Add a new task" required>
+          <button type="submit">Adauga task</button>
+        </form>
+        <ul id="todoList"></ul>
+        <input type="number" id="todolist-input" placeholder="Introduceti indexul task-ului" />
+        <button id="submit-todolist">Schimba culoarea marginii</button>
+      </div>
       <div class="sports-container"></div>
       <div class="cafes-container"></div>
       <div class="link-form-container">
         <button>
-          <a href="/form" class="form-link">Go to form </a>
+          <a href="/form" class="form-link">Go to form</a>
         </button>
       </div>
     </main>
@@ -125,5 +134,6 @@
 <script src="./scripts/sidebar.js"></script>
 <script src="./scripts/home.js"></script>
 <script src="./scripts/parks.js"></script>
+<script src="./scripts/to-do-list.js"></script>
 
 </html>

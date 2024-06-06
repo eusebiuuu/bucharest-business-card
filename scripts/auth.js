@@ -1,6 +1,12 @@
 const loginForm = document.getElementById('loginForm');
+const loginFormParent = document.getElementById('login-form-parent');
+
+loginFormParent.addEventListener('submit', (event) => {
+  alert('click');
+})
 
 loginForm.addEventListener('submit', async (event) => {
+  event.stopPropagation();
   event.preventDefault();
   const username = document.getElementById('username').value;
   const password = document.getElementById('password').value;
@@ -24,3 +30,11 @@ loginForm.addEventListener('submit', async (event) => {
     alert(response.message);
   }
 });
+
+const goHome = document.querySelector('.go-home-delay');
+goHome.addEventListener('click', () => {
+  goHome.textContent = 'Loading...';
+  setTimeout(() => {
+    window.location.href = '/';
+  }, 2000);
+})

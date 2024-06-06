@@ -4,7 +4,7 @@ const openSidebar = document.querySelector('.sidebar-open');
 const closeSidebar = document.querySelector('.sidebar-close');
 const sidebarList = document.querySelector('.sidebar-btns');
 
-let options = ['home', 'parks', 'cafes', 'sports'];
+let options = ['home', 'parks', 'todolist', 'cafes', 'sports'];
 let currentOption = 'home';
 
 function changeContent(newOption) {
